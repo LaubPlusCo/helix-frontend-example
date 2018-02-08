@@ -1,5 +1,6 @@
 // NOTE: @Import this in context (project layer) themes AFTER variables, before any feature styling!
 
+@import "variables";
 @import "mixins";
 @import "root";
 @import "reboot";

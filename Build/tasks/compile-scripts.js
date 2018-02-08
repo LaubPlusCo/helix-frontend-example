@@ -45,12 +45,12 @@ const build = (config) => {
     return new Promise(resolve => webpack(config, (err, stats) => {
         if (err) console.log('Webpack', err)
         console.log(stats.toString({ /* stats options */ }))
-        resolve()
+        resolve();
     }))
 }
 
 const compileSriptBundles = () => {
-    //TODO: Change to vinyl stream..
+    //TODO: Perhaps change to gulp vinyl stream instead of fast glob..
     let bundleFiles = fg.sync(["./src/Project/**/code/Scripts/*-Bundle.js"], {
         "absolute": false,
         "nocase": true,
