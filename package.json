@@ -1,0 +1,28 @@
+{
+  "name": "sitecore-helix-frontend-example",
+  "version": "1.0.0",
+  "description": "Sitecore Helix frontend development example",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LaubPlusCo/helix-frontend-example.git"
+  },
+  "author": "Anders Laub <contact@laubplusco.net> (https://laubplusco.net/)",
+  "dependencies": {
+    "bootstrap": "^4.0.0",
+    "font-awesome": "^4.7.0",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.12.9"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-debug": "^3.2.0",
+    "fast-glob": "^2.0.1",
+    "require-dir": "^0.3.2",
+    "webpack": "^3.10.0"
+  },
+  "scripts": {
+  }
+}
