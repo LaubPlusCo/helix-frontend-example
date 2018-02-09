@@ -1,11 +1,14 @@
 // Bootstrap sass functions
-@import "Foundation-Functions";
+@import "Foundation-Theming-Functions";
 
 // Theme variables
 @import "Corporate-Variables-Dark";
 
-// Foundation Theme - bootstrap grid and more
+// Foundation Theming Full - all of bootstrap
 @import "Foundation-Theming-Full";
+
+// Foundation Theming Fonts - all of font-awesome, copy font files to dist folder manually for now
+@import "Foundation-Theming-Fonts";
 
 // Styling shared across several contexts but of course not used by ANY feature modules
 @import "Project-Common";

@@ -11,7 +11,7 @@ const styleFolders = fg.sync(["./src/{Feature,Foundation,Project/Common}/**/code
     onlyFiles: false,
     unique: true,
     markDirectories: true
-}).concat(["./node_modules/bootstrap/scss"]);
+}).concat(["./node_modules"]);
 
 const styles = () => {
     var sf = styleFolders;
