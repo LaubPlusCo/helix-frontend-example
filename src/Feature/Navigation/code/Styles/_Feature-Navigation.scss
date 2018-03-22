@@ -1,0 +1,62 @@
+$navbar-legal-color: $white !default;
+$navbar-legal-fontsize: 0.8rem !default;
+$primary-navbar-top-padding: 0 !default;
+$primary-navbar-bottom-padding: 1rem !default;
+$primary-navbar-shrink-bg: rgba($primary, 0.2) !default;
+$navbar-nav-mobile-bg: $white !default;
+$nav-item-mobile-divider-color: $gray-400 !default; 
+
+.navbar {
+	&.primary-navbar {
+		padding-top: $primary-navbar-top-padding;
+		padding-bottom: $primary-navbar-bottom-padding; 
+        transition: background-color 0.4s ease;
+        .navbar-brand {
+            img {
+                max-width: 4rem;
+                height: auto;
+                transition: all 0.5s ease-in;
+            }
+        }
+	}
+	&.navbar-shrink {
+        background-color: $primary-navbar-shrink-bg;
+        .navbar-brand {
+            padding: 0;
+            img {
+                max-width: 3rem;
+                height: auto;
+            }
+        }
+	}
+
+	&-collapse {
+		flex-direction: column-reverse !important;
+		align-self: flex-start;
+	}
+
+}
+
+
+.nav-item {
+	padding: 0 14px;
+	border-top: 1px solid $nav-item-mobile-divider-color;
+
+	@include media-breakpoint-up(lg) {
+		padding: 0;
+		border-top: 0;
+	}
+}
+
+.nav-link {
+	text-align: center;
+
+	&__main {
+		font-size: 13px;
+		font-weight: 700;
+		color: $white;
+		@include media-breakpoint-up(lg) {
+			color: $primary;
+		}
+	}
+}

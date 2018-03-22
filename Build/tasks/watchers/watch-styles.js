@@ -1,5 +1,9 @@
-const gulp = require("gulp");
-const watchStyles = () => { gulp.watch(["src/**/code/Styles/*.scss"], ["compile-styles"]); };
+"use strict";
+
+const gulp = require("gulp"),
+    runSequence = require("run-sequence");
+
+const watchStyles = () => { gulp.watch(["./src/{Feature,Foundation,Project}/**/code/Styles/*.scss"], () => { return runSequence("compile-styles", "publish-styles") }); };
 
 gulp.task("watch-styles", watchStyles);
 

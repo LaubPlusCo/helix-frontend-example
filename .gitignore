@@ -6,8 +6,8 @@ yarn-debug.log*
 yarn-error.log*
 
 # build output
-dist/css
-dist/js
+Website/Dist/css
+Website/Dist/js
 
 
 # Runtime data

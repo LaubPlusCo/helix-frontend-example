@@ -109,7 +109,7 @@ We can now easily utilize dependency inversion on the project layer.
 
 ```javascript
 
-// some made up example that should be easy to get :) 
+// a made up example on injecting dependencies between 2 feature modules on the project layer that should be easy to get :) 
 
 import PageState from 'Feature-PageState'
 import UserContent from 'Feature-UserContent'
@@ -160,5 +160,5 @@ __Anything else?__
 Comment here, make a pull request or catch me on the Sitecore Community Slack @anderslaub
 
 > __Disclaimer__; I am a software developer who's primary focus is on architecting and developing Sitecore based web-solutions for clients. 
-> I do not label or limit myself as neither a frontend, nor a backend developer. I tend to advocate against using these fixed boxes and instead replace them with more>  granular roles based on interests and expertise. 
+> I do not label or limit myself as neither a frontend, nor a backend developer. I tend to advocate against using these fixed boxes and instead replace them with more granular roles based on interests and expertise. 
 > This example might be lacking in the eyes of someone who work exclusively with writing js and sass on a daily basis but I do hope it is sufficient as an example. I welcome any input, comments and contributions. 
