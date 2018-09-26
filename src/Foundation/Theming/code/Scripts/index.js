@@ -18,4 +18,5 @@ Foundation.Theming.themeSwitcher = {
         });
     }
 }
+
 Foundation.Theming.themeSwitcher.init();
